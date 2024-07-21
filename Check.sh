@@ -79,6 +79,7 @@ $(ColorGreen '3)') Number of TCP Connections
 $(ColorGreen '4)') Kernel version
 $(ColorGreen '5)') All check
 $(ColorGreen '0)') Exit
+
 $(ColorBlue 'Choose an option : ') "
         read a 
         case $a in
@@ -92,4 +93,5 @@ $(ColorBlue 'Choose an option : ') "
 WrongCommand;;
         esac
 }
+# call the menu function
 menu
